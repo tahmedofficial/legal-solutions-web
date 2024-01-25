@@ -394,9 +394,9 @@
                     alteration in some form, by injected humour.</p>
             </div>
             <!-- Contact and form container -->
-            <div class="flex flex-col lg:flex-row">
+            <div class="flex flex-col lg:flex-row ">
                 <!-- Contact Container -->
-                <div class="grid md:grid-cols-2 gap-px bg-[#CFCFCF] m-5 w-full">
+                <div class="grid md:grid-cols-2 gap-px bg-[#CFCFCF] m-5 lg:w-full">
                     <!-- Contact 1 -->
                     <div class="bg-primary_background text-center p-12">
                         <div class="flex justify-center">
@@ -431,13 +431,22 @@
                     </div>
                 </div>
                 <!-- Form Container -->
-                <div class="m-5 w-full">
+                <div class="m-5 lg:w-full">
                     <form action="" class="flex flex-col gap-6">
-                        <input class="Poppins h-14 bg-primary_background placeholder:text-primary_text rounded-lg font-semibold text-xl outline-none pl-5" type="text" placeholder="Your Name">
-                        <input class="Poppins h-14 bg-primary_background placeholder:text-primary_text rounded-lg font-semibold text-xl outline-none pl-5" type="email" placeholder="Your Email">
-                        <input class="Poppins h-14 bg-primary_background placeholder:text-primary_text rounded-lg font-semibold text-xl outline-none pl-5" type="text" placeholder="Subject">
-                        <textarea class="Poppins bg-primary_background placeholder:text-primary_text rounded-lg font-semibold text-xl outline-none pl-5 pt-2" placeholder="Your Message" name="" id="" cols="30" rows="7"></textarea>
-                        <input class="Poppins bg-primary_button_bg text-white h-14 rounded-lg font-semibold text-xl" type="submit" value="Send Message">
+                        <input
+                            class="Poppins h-14 bg-primary_background placeholder:text-primary_text rounded-lg font-semibold text-xl outline-none pl-5"
+                            type="text" placeholder="Your Name">
+                        <input
+                            class="Poppins h-14 bg-primary_background placeholder:text-primary_text rounded-lg font-semibold text-xl outline-none pl-5"
+                            type="email" placeholder="Your Email">
+                        <input
+                            class="Poppins h-14 bg-primary_background placeholder:text-primary_text rounded-lg font-semibold text-xl outline-none pl-5"
+                            type="text" placeholder="Subject">
+                        <textarea
+                            class="Poppins bg-primary_background placeholder:text-primary_text rounded-lg font-semibold text-xl outline-none pl-5 pt-2"
+                            placeholder="Your Message" name="" id="" cols="30" rows="7"></textarea>
+                        <input class="Poppins bg-primary_button_bg text-white h-14 rounded-lg font-semibold text-xl"
+                            type="submit" value="Send Message">
                     </form>
                 </div>
             </div>
@@ -445,8 +454,74 @@
 
     </main>
 
-    <footer>
-
+    <footer class="bg-[#111111] poppins py-20">
+        <div class="footer p-10 container mx-auto text-base-content text-white">
+            <nav>
+                <!-- logo container -->
+                <div class="flex gap-4">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 45 45" fill="none">
+                            <path d="M19.7224 14.1357L30.0959 3.84753L40.7683 14.5199L30.4375 24.808L19.7224 14.1357Z"
+                                fill="#B68C5A" />
+                            <path
+                                d="M18.8687 12.4708C18.2283 13.1111 17.2038 13.1111 16.6061 12.4708L16.5208 12.3854C15.9231 11.7878 15.9658 10.934 16.4354 10.2509C18.954 6.28084 23.223 2.09729 26.4247 0.304336C27.1504 -0.0798678 27.9615 -0.165247 28.5591 0.432403L28.6872 0.560471C29.2849 1.15812 29.2849 2.18266 28.6872 2.78031L18.8687 12.4708Z"
+                                fill="#B68C5A" />
+                            <path
+                                d="M32.0597 25.7045C31.4193 26.3448 31.4193 27.3267 32.0597 27.967L32.145 28.0524C32.7427 28.65 33.5965 28.6073 34.2795 28.1804C38.2923 25.6618 42.5185 21.4355 44.3115 18.2338C44.6957 17.5081 44.7811 16.697 44.1834 16.0994L44.0553 15.9713C43.4577 15.3737 42.4332 15.331 41.7928 15.9713L32.0597 25.7045Z"
+                                fill="#B68C5A" />
+                            <path
+                                d="M1.23799 43.1644C1.02454 43.079 0.939164 42.8229 0.768407 42.6948C0.256135 42.0118 0 41.158 0 40.3042C0.0426893 39.237 0.469582 38.2551 1.28068 37.5294L22.1557 19.173L23.7779 20.7525L25.3574 22.3747L6.87297 43.1217C6.14726 43.8901 5.1654 44.3597 4.09817 44.4024C3.24439 44.4024 2.3906 44.1462 1.70757 43.634C1.53681 43.4632 1.32337 43.3778 1.23799 43.1644Z"
+                                fill="#B68C5A" />
+                            <path
+                                d="M19.2102 36.761L18.0149 38.127V39.5358H16.905L15.4109 41.0299V45H43.8846V41.0299L42.3478 39.5358H41.2379V38.127L40.0426 36.761H19.2102Z"
+                                fill="#B68C5A" />
+                        </svg>
+                    </div>
+                    <h6 class="eb-garamond text-4xl font-extrabold">Justice</h6>
+                </div>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav>
+                <h6 class="eb-garamond text-2xl font-extrabold">Company</h6>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav>
+                <h6 class="eb-garamond text-2xl font-extrabold">Legal</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </nav>
+            <form>
+                <h6 class="eb-garamond text-2xl font-extrabold">Newsletter</h6>
+                <fieldset class="form-control w-80">
+                    <div class="join">
+                        <input type="text" placeholder="username@site.com" class="input input-bordered join-item" />
+                        <button class="btn bg-primary_button_bg join-item border-0 text-white"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34"
+                                fill="none">
+                                <g clip-path="url(#clip0_12_37)">
+                                    <path
+                                        d="M12.7279 21.2427L4.52197 16.8989C10.4846 13.6228 16.9629 11.3888 23.6775 10.2931C22.5826 17.0078 20.3492 23.4863 17.0738 29.4494L12.7279 21.2427ZM12.7279 21.2427L18.0312 15.9394"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_12_37">
+                                        <rect width="24" height="24" fill="white"
+                                            transform="translate(0 17) rotate(-45)" />
+                                    </clipPath>
+                                </defs>
+                            </svg></button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
     </footer>
 
 </body>
